@@ -18,4 +18,4 @@ RUN \
 
 EXPOSE 80 443
 
-VOLUME ["/config", "/etc/letsencrypt", "/usr/share/jitsi-meet/transcripts"]
+VOLUME ["/etc/letsencrypt", "/usr/share/jitsi-meet/transcripts"]
