@@ -3,7 +3,7 @@ FROM ${JITSI_REPO}/base
 
 ADD https://dl.eff.org/certbot-auto /usr/local/bin/
 
-COPY rootfs/ /
+COPY web/rootfs/ /
 
 RUN \
 	apt-dpkg-wrap apt-get update && \
