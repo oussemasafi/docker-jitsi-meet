@@ -2,7 +2,7 @@ ARG JITSI_REPO=jitsi
 FROM ${JITSI_REPO}/base
 
 ADD https://raw.githubusercontent.com/acmesh-official/acme.sh/2.8.8/acme.sh /opt
-COPY rootfs/ /
+COPY web/rootfs/ /
 
 RUN \
 	apt-dpkg-wrap apt-get update && \
