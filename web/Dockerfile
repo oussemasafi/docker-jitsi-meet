@@ -17,4 +17,4 @@ RUN \
 
 EXPOSE 80 443
 
-VOLUME ["/config", "/usr/share/jitsi-meet/transcripts"]
+VOLUME ["/usr/share/jitsi-meet/transcripts"]
